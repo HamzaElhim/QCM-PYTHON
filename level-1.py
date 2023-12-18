@@ -1,6 +1,18 @@
 with open('C:\\Users\\elhim\\OneDrive\\Desktop\\S3\\Python\\quizQuestions.txt','r') as my_file:
     ques_list=my_file.readlines()
 
+def check_answer(answers,score):
+    righ_answer=True
+    for y in range(0,len(answers)):
+        answer=input("==>")
+        if(answer!=answers[y]):
+            righ_answer=False
+    
+    if(righ_answer):
+         score+=1
+    return score
+
+
 
 score=0
 for i in range(0,len(ques_list),5):
@@ -13,14 +25,6 @@ for i in range(0,len(ques_list),5):
         else :
             print(ques_list[i+j].strip())
     
-    righ_answer=True
-    for y in range(0,len(answers)):
-        answer=input("==>")
-        if(answer!=answers[y]):
-            righ_answer=False
-    
-    if(righ_answer):
-        score+=1
-    print('\n')
+    score=check_answer(answers,score)
 
 print(f"your score is => '{score}' points ")
