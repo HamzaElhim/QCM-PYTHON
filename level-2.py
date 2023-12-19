@@ -34,15 +34,17 @@ arr_quesions=[0,5,10,15,20]
 for i in range(1,6) :
     arr_answers=[1,2,3,4]
     random_num_qus=random_index(arr_quesions)
-    print(f"Q-{i}: {ques_list[random_num_qus].strip()}")
+    question=ques_list[random_num_qus][3:].strip()
+    print(f"Q-{i}: {question}")
     answers=[]
     for j in range(1,5):
         random_num_ans=random_index(arr_answers)
+        answ=ques_list[random_num_qus+random_num_ans][2:]
         if(ques_list[random_num_qus+random_num_ans].strip()[-1]=="*"):
             answers.append(j)
-            print(f"{j}-{ques_list[random_num_qus+random_num_ans].strip('*\n')}")
+            print(f"{j}-{answ.strip('*\n')}")
         else :
-            print(f"{j}-{ques_list[random_num_qus+random_num_ans].strip()}")
+            print(f"{j}-{answ.strip()}")
     
 
     score=check_answer(answers,score)
