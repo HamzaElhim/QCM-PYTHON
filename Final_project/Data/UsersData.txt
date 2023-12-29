@@ -1,0 +1,3 @@
+FirstName ; LastName ; Topic : Score ; Topic : Score ; Topic : Score
+ham ; elhi ;  Culture : 1  ;  Science : 2 
+bjh ; hjh ;  Culture : 3  ;  Science : 5  ;  Sport : 5 

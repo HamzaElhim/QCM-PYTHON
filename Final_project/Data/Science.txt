@@ -1,0 +1,25 @@
+Q1: what is the color of the skey ?
+1-red 
+2-blue *
+3-green
+4-white
+Q2: what is the best language in the world ?
+1-arabic *
+2-farsi
+3-ibri
+4-english
+Q3: what is the truth religion  ?
+1-islam *
+2-chritianity
+3-tawrah
+4-injil
+Q4: what is the first column of islam ?
+1-chahadatan *
+2-salat
+3-zakat
+4-siyam
+Q5: what is call the afterlife in arabic (two respons) ?
+1-akhira *
+2-dunua
+3-afterlife *
+4-nothing
