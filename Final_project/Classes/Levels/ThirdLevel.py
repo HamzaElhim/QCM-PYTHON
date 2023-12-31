@@ -25,7 +25,7 @@ class ThirdLevel(SecondLevel):
                 if file_data[i].endswith('?'):
                     NewList.append(" ".join(file_data[ j : i + 1 ]))
                     j = i + 1
-                elif file_data[i].endswith('.') or file_data[i].endswith('*'):
+                elif file_data[i].endswith('?') == False or file_data[i].endswith('*'):
                     NewList.append(" ".join(file_data[ j : i + 1 ]))
                     j = i + 1
 
@@ -35,10 +35,8 @@ class ThirdLevel(SecondLevel):
     def diplay_quiz(self):
         self.score     = 0
         Ins_file_data  = self.manipulateData(self.file_data.get_info(self.subject))
-
         listRandom = [i for i in range(0, len(Ins_file_data), 5)]
-        print(listRandom)
-        for i in range(1, 6):
+        for i in range(0, len(Ins_file_data), 5):
             randomvalue = self.random_index(listRandom)
             ourdatal = Ins_file_data[randomvalue][3:]
             print(f"Q-{i }: {ourdatal}")

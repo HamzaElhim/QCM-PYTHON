@@ -45,12 +45,6 @@ Q9: Who invented the occupation in Palestine ?
 4-Jhon Emi.
 Q10: What is going on in Palestine ?
 1-Occupation*
-2-War.
+2-War
 3-Resistance*
-4-Genocide.
-
-
-
-
-
-
+4-Genocide*

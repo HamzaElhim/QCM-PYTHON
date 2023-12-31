@@ -43,14 +43,14 @@ User = Users(firstName, lastName)
 
 operation = 0
 levels = [FirstLevel(), SecondLevel(),ThirdLevel()]
-while True:
+while True :
     if operation not in range(1, 5):
         getMenu()
         operation = int(input("Choose your operation : "))
     elif operation == 1:
         topic = 0
         while topic not in range(1, 4):
-            getTopic() #topic
+            getTopic() 
             topic = int(input("> Choose your topic : "))
         dect_quiz_info=levels[topic - 1].diplay_quiz() 
         print("Your sccore is : ", dect_quiz_info['score']) 

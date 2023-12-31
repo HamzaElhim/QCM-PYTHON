@@ -24,7 +24,7 @@ class FirstLevel:
             if Quiz[j].endswith("*"):
                 vtrue = Quiz[j].strip("*")
                 trueAnswers.append(vtrue[0])
-                print(f"{vtrue}.")
+                print(vtrue)
             else:
                 print(Quiz[j])
         return trueAnswers   
@@ -47,8 +47,6 @@ class FirstLevel:
         
         if(righ_answer):
             self.score+=1
-        
-        
 
     def diplay_quiz(self):
         """
