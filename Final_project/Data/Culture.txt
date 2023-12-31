@@ -1,56 +1,50 @@
-Q1: What are the Five Pillars of Islam?
+Q1: What is the first Pillars of Islam?
 1-Shahada*
-2-Sawm.
-3-Halal.
+2-Sawm
+3-Halal
 4-Zakat
 Q2: Which of the following is a significant collection of hadiths in Sunni Islam?
-1-Shia Hadith Collection.
+1-Shia Hadith Collection
 2-Sahih Bukhari*
-3-Sunni Hadith Compendium.
-4-Hadith Al-Quran.
+3-Sunni Hadith Compendium
+4-Hadith Al-Quran
 Q3: Which Islamic festival reflects the end of Ramadan and emphasizes charity?
 1-Eid al-Adha
 2-Muharram
 3-Eid al-Fitr*
 4-Ashura
 Q4: What is the call the community muslims who doing jihad in alestine(3 answers) ?
-1-Hizballah.
+1-Hizballah
 2-Hamas*
 3-Resistors*
 4-Muslims*
 Q5: what is the last language that will stay in the world ?
 1-Arabic*
-2-Farsi.
-3-Turkish.
-4-English.
+2-Farsi
+3-Turkish
+4-English
 Q6: what is the truth religion ?
 1-Islam*
-2-Chritianity.
-3-Atheism.
-4-Hinduism.
-Q7: what is the first column of islam ?
-1-Shahada *
-2-Salat.
-3-Zakat.
-4-Fasting.
-Q8: what is call the realworld of muslims (two respons) ?
+2-Chritianity
+3-Atheism
+4-Hinduism
+Q7: what is the second column of islam ?
+1-Shahada*
+2-Salat
+3-Zakat
+4-Fasting
+Q8: what is call the realworld of muslims (2 respons) ?
 1-Akhira*
-2-Dunua.
+2-Dunua
 3-Afterlife*
-4-Life.
+4-Life
 Q9: Who the creator of the occupation in palestine ?
 1-Theodor Herzl*
-2-Alberto.
-3-Arthar belvor.
-4-Jhon Emi.
-Q10: What is happening in Palestine?
+2-Alberto
+3-Arthar belvor
+4-Jhon Emi
+Q10: What is happening in Palestine (3 answers)?
 1-Occupation*
-2-War.
+2-War
 3-Resistance*
-4-Genocide.
-
-
-
-
-
-
+4-Genocide*

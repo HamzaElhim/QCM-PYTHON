@@ -2,7 +2,6 @@ from Classes.Levels.FirstLevel import FirstLevel
 import random as ra
 
 class SecondLevel(FirstLevel):
-   #dfdhjfd 
     def __init__(self):
         super().__init__()
         self.subject   = "Science"
@@ -31,7 +30,7 @@ class SecondLevel(FirstLevel):
         self.score     = 0
         Ins_file_data  = self.file_data.get_info(self.subject)
         listRandom = [i for i in range(0, len(Ins_file_data), 5)]
-        for i in range(1, 6):
+        for i in range(0, len(Ins_file_data), 5):
             randomvalue = self.random_index(listRandom)
             ourdatal = Ins_file_data[randomvalue][3:]
             print(f"Q-{i }: {ourdatal}")

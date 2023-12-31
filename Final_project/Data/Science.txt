@@ -1,50 +1,50 @@
 Q1: What is the chemical symbol for the element oxygen?
-1- O*
-2- Ox
-3- Om
-4- Oc
+1-O*
+2-Ox
+3-Om
+4-Oc
 Q2: Who is credited with the discovery of penicillin, the first antibiotic?
-1- Alexander Fleming*
-2- Louis Pasteur
-3- Jonas Salk
-4- Robert Koch
+1-Alexander Fleming*
+2-Louis Pasteur
+3-Jonas Salk
+4-Robert Koch
 Q3: What is the largest organ in the human body?
-1- Brain
-2- Liver
-3- Skin*
-4- Heart
+1-Brain
+2-Liver
+3-Skin*
+4-Heart
 Q4: What is the unit used to measure electric current?
-1- Ampere (A)*
-2- Volt (V)
-3- Ohm (Ω)
-4- Watt (W)
+1-Ampere (A)*
+2-Volt (V)
+3-Ohm (Ω)
+4-Watt (W)
 Q5: What is the nearest star to Earth, apart from the Sun?
-1- Alpha Centauri
-2- Proxima Centauri*
-3- Sirius
-4- Betelgeuse
+1-Alpha Centauri
+2-Proxima Centauri*
+3-Sirius
+4-Betelgeuse
 Q6: What is the chemical formula for water?
-1- H2O*
-2- CO2
-3- NaCl
-4- CH4
+1-H2O*
+2-CO2
+3-NaCl
+4-CH4
 Q7: What is the chemical symbol for gold?
-1- Au*
-2- Ag
-3- Go
-4- Gd
+1-Au*
+2-Ag
+3-Go
+4-Gd
 Q8: What is the process by which plants make their own food?
-1- Respiration
-2- Photosynthesis*
-3- Decomposition
-4- Digestion
+1-Respiration
+2-Photosynthesis*
+3-Decomposition
+4-Digestion
 Q9: Which planet is known as the Red Planet?
-1- Venus
-2- Jupiter
-3- Mars*
-4- Saturn
+1-Venus
+2-Jupiter
+3-Mars*
+4-Saturn
 Q10: What force keeps objects on the Earth's surface?
-1- Magnetism
-2- Gravity*
-3- Friction
+1-Magnetism
+2-Gravity*
+3-Friction
 4- Buoyancy

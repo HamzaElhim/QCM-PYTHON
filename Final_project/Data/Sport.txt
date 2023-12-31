@@ -1,50 +1,50 @@
 Q-1: Which sport is considered the most popular in Morocco?
-1- Football (Soccer) *
-2- Tennis
-3- Basketball
-4- Rugby
+1-Football (Soccer) *
+2-Tennis
+3-Basketball
+4-Rugby
 Q-2: In which year did Morocco host the FIFA World Cup?
-1- 1986 *
-2- 1998
-3- 2010
-4- 1974
+1-1986 *
+2-1998
+3-2010
+4-1974
 Q-3: Who is Morocco's most famous football player known for his time at Real Madrid and Inter Milan?
-1- Hakim Ziyech
-2- Nordin Amrabat
-3- Achraf Hakimi
-4- Mehdi Benatia *
+1-Hakim Ziyech
+2-Nordin Amrabat
+3-Achraf Hakimi
+4-Mehdi Benatia *
 Q4: Which country is known for originating the sport of judo?
-1- China
-2- Japan*
-3- Russia
-4- Brazil
+1-China
+2-Japan*
+3-Russia
+4-Brazil
 Q-5: Which city in Morocco is known for hosting the Marrakech International Film Festival and has a renowned Formula 1 track?
-1- Casablanca
-2- Rabat
-3- Marrakech *
-4- Fez
+1-Casablanca
+2-Rabat
+3-Marrakech *
+4-Fez
 Q-6: In which year did Morocco first participate in the Summer Olympics?
-1- 1968
-2- 1980
-3- 1964 *
-4- 1976
+1-1968
+2-1980
+3-1964 *
+4-1976
 Q-7: What is the name of the famous mountain range in Morocco known for trekking and mountaineering?
-1- Atlas Mountains *
-2- Rif Mountains
-3- Anti-Atlas Mountains
-4- High Atlas Mountains
+1-Atlas Mountains *
+2-Rif Mountains
+3-Anti-Atlas Mountains
+4-High Atlas Mountains
 Q-8: Which sport is associated with the "Raids Sahariens" event that takes place annually in Morocco?
-1- Surfing
-2- Desert Racing *
-3- Paragliding
-4- Camel Racing
+1-Surfing
+2-Desert Racing *
+3-Paragliding
+4-Camel Racing
 Q-9: Who was the first Moroccan boxer to win a world title in the history of professional boxing?
-1- Aziz Salihu
-2- Mehdi Bouadla
-3- Badr Hari
-4- Mohammed Rabii *
+1-Aziz Salihu
+2-Mehdi Bouadla
+3-Badr Hari
+4-Mohammed Rabii *
 Q10: In which sport is the term "slam dunk" commonly used?
-1- Basketball*
-2- Tennis
-3- Ice Hockey
-4- Gymnastics
+1-Basketball*
+2-Tennis
+3-Ice Hockey
+4-Gymnastics
