@@ -7,6 +7,16 @@ class SecondLevel(FirstLevel):
         self.subject   = "Science"
 
     def random_index(self, arr):
+        """
+        PARAMETERS :
+            => arr : list of numbers you want to chose from 
+        ROLE :
+            => take random number from a list 
+            => remove that random number after return it 
+
+        RETURN :
+            number from the list 
+        """
         my_random = ra.choice(arr)
         arr.remove(my_random)
         return my_random

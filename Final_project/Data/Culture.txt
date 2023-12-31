@@ -1,50 +1,50 @@
-Q-1: What is the first Pillars of Islam?
-1-Shahada*
+Q1: What is the First Pillars in Islam?
+1-Shahada .*
 2-Sawm.
 3-Halal.
 4-Zakat.
-Q-2: Which of the following is a significant collection of hadiths in Sunni Islam?
+Q2: In Islam, which one of the following has the largest collection of hadiths?
 1-Shia Hadith Collection.
-2-Sahih Bukhari*
-3-Sunni Hadith Compendium
-4-Hadith Al-Quran
-Q-3: Which Islamic festival reflects the end of Ramadan and emphasizes charity?
-1-Eid al-Adha
-2-Muharram
-3-Eid al-Fitr*
-4-Ashura
-Q-4: What is the call the community muslims who doing jihad in alestine(3 answers) ?
-1-Hizballah
-2-Hamas*
-3-Resistors*
-4-Muslims*
-Q-5: what is the last language that will stay in the world ?
-1-Arabic*
-2-Farsi
-3-Turkish
-4-English
-Q-6: what is the truth religion ?
+2-Sahih Bukhari .*
+3-Sunni Hadith Compendium.
+4-Hadith Al-Quran.
+Q3: Which Islamic holiday marks the conclusion of Ramadan?
+1-Eid al-Adha.
+2-Muharram.
+3-Eid al-Fitr .*
+4-Ashura.
+Q4: what do we name Muslims who are fighting for Islam in Palestine(3 answers) ?
+1-Hizballah.
+2-Hamas .*
+3-Resistors .*
+4-Muslims .*
+Q5: what is the last language that will stay in the world ?
+1-Arabic .*
+2-Farsi.
+3-Turkish.
+4-English.
+Q6: What religion is the truth?
 1-Islam*
-2-Chritianity
-3-Atheism
-4-Hinduism
-Q-7: what is the second column of islam ?
-1-Shahada*
-2-Salat
-3-Zakat
-4-Fasting
-Q-8: what is call the realworld of muslims (2 respons) ?
-1-Akhira*
-2-Dunua
-3-Afterlife*
-4-Life
-Q-9: Who the creator of the occupation in palestine ?
-1-Theodor Herzl*
-2-Alberto
-3-Arthar belvor
-4-Jhon Emi
-Q-10: What is happening in Palestine (3 answers)?
-1-Occupation*
+2-Chritianity.
+3-Atheism.
+4-Hinduism.
+Q7: what is the first column of islam ?
+1-Shahada .*
+2-Salat.
+3-Zakat.
+4-Fasting.
+Q8: What do we refer to as the Muslim real world (two respons) ?
+1-Akhira.*
+2-Dunua.
+3-Hosna.*
+4-Life.
+Q9: Who invented the occupation in Palestine ?
+1-Theodor Herzl.*
+2-Alberto.
+3-Arthar belvor.
+4-Jhon Emi.
+Q10: What is going on in Palestine ?
+1-Occupation.*
 2-War
-3-Resistance*
-4-Genocide*
+3-Resistance.*
+4-Genocide.*

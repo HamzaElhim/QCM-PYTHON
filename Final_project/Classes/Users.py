@@ -11,6 +11,14 @@ class Users :
     
 
     def setQuizData(self, QuizData):
+        """
+        PARAMETERS :
+            => QuizData : represent the infomation of the quiz that the user passed
+        ROLE :
+            => get information about the passed quiz and store them in list
+            => in case that the user passed the same quiz twice write the haghest score
+
+        """
         if self.quiz_data != []:
             counter  = 0
             for i in range(len(self.quiz_data)):                
@@ -25,6 +33,12 @@ class Users :
                     
 
     def saveData(self):
+        """
+        ROLE :
+            => store all user information in list 
+            => store this information in a file
+            
+        """
         user_data=[self.firstName,self.lastName]
         for element in self.quiz_data :
             user_data.append(f" {element['subject']} : {element['score']} ")
