@@ -24,7 +24,7 @@ class FirstLevel:
             if Quiz[j].endswith("*"):
                 vtrue = Quiz[j].strip("*")
                 trueAnswers.append(vtrue[0])
-                print(vtrue)
+                print(f"{vtrue}.")
             else:
                 print(Quiz[j])
         return trueAnswers   

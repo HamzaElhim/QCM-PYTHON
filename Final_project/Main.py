@@ -5,15 +5,17 @@ from Classes.Levels.ThirdLevel import ThirdLevel
 
 
 
+def getIndent():
+    return "            =========================="
 
 def getMenu():
-    
-    print("============================")
-    print("======== Menu ===========")
-    print("1 : Start Quiz")
-    print("2 : Show My information")
-    print("3 : Show System Roles")
-    print("4 : Quiet from program")
+    print(getIndent() + "===================================")
+    print(getIndent() + "======== Menu ====================")
+    print(getIndent() + " 1 : Start Quiz")
+    print(getIndent() + " 2 : Show My information")
+    print(getIndent() + " 3 : Show System Roles")
+    print(getIndent() + " 4 : Quiet from program")
+
 
 
 
@@ -24,22 +26,19 @@ def getTopic():
     print("3 : Sport ")  #represente the level 3
 
 def getRules():
-    print("============================")
-    print("======= System Rules ======")
-    print("==> Users should use numbers as input.")
-    print("==> Users can Repeat the quiz & the largest score will be taken.")
-    print("==> User data will be saved in separated file.")
+    print( getIndent() + "=========================================")
+    print( getIndent() + "======= System Rules ====================")
+    print( getIndent() + "==> Users should use numbers as input.")
+    print( getIndent() + "==> Users can Repeat the quiz & the largest score will be taken.")
+    print( getIndent() + "==> User data will be saved in separated file.")
 
      
 
-
-
-
     
 
-print("================== Welcome to Your Quiz ==============")
-firstName = input("Enter your first name : ")
-lastName  = input(" Enter your last name  : ")
+print(getIndent() +" Welcome to Your Quiz ====================")
+firstName = input(getIndent() + " Enter your first name : ")
+lastName  = input(getIndent() + " Enter your last name  : ")
 User = Users(firstName, lastName)
 
 operation = 0
@@ -52,20 +51,20 @@ while True:
         topic = 0
         while topic not in range(1, 4):
             getTopic() #topic
-            topic = int(input("Choose your topic : "))
+            topic = int(input("> Choose your topic : "))
         dect_quiz_info=levels[topic - 1].diplay_quiz() 
         print("Your sccore is : ", dect_quiz_info['score']) 
         User.setQuizData(dect_quiz_info)
         getMenu()
-        operation = int(input("Choose your operation : "))  
+        operation = int(input("> Choose your operation : "))  
     elif operation == 2:
         User.getUserInfo()
         getMenu()
-        operation = int(input("Choose your operation : "))
+        operation = int(input("> Choose your operation : "))
     elif operation == 3:
         getRules()
         getMenu()
-        operation = int(input("Choose your operation : "))
+        operation = int(input("> Choose your operation : "))
     elif operation == 4:
         User.saveData()
         break

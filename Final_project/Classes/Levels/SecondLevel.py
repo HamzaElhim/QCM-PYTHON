@@ -2,7 +2,7 @@ from Classes.Levels.FirstLevel import FirstLevel
 import random as ra
 
 class SecondLevel(FirstLevel):
-
+   #dfdhjfd 
     def __init__(self):
         super().__init__()
         self.subject   = "Science"
@@ -21,7 +21,7 @@ class SecondLevel(FirstLevel):
         my_random = ra.choice(arr)
         arr.remove(my_random)
         return my_random
-
+    
     def getTrueAnswers(self, i, Quiz):
         trueAnswers = []    
         listRandomAns = [1, 2, 3, 4]    
