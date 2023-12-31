@@ -29,11 +29,13 @@ class SecondLevel(FirstLevel):
     def diplay_quiz(self):
         self.score     = 0
         Ins_file_data  = self.file_data.get_info(self.subject)
-        listRandom = [i for i in range(0, len(Ins_file_data), 5)]
-        for i in range(0, len(Ins_file_data), 5):
+        listRandom = [k for k in range(0, len(Ins_file_data), 5)]
+        counter = 0
+        for ind in range(0, len(Ins_file_data), 5):
+            counter += 1
             randomvalue = self.random_index(listRandom)
-            ourdatal = Ins_file_data[randomvalue][3:]
-            print(f"Q-{i }: {ourdatal}")
+            ourdatal = Ins_file_data[randomvalue][4:]
+            print(f"Q-{counter} {ourdatal}")
             trueAnswers = self.getTrueAnswers(randomvalue, Ins_file_data)                              
             self.check_answer(trueAnswers)
 

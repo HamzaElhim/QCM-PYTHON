@@ -6,6 +6,7 @@ class FileManip :
         with open(f"{self.path}{subject}.txt") as my_file:
             ques_list=my_file.readlines()
         ques_list = [ele.strip('\n') for ele in ques_list] 
+        print(ques_list)
         return ques_list 
     
     def write_user_data(self,userData):
