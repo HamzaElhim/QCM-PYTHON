@@ -1,30 +1,30 @@
 Q1: What is the chemical symbol of oxygen?
-1- O*
+1- O.*
 2- Ox.
 3- Om.
 4- Oc.
 Q2: Who is the person  who descovered antibiotic?
-1- Alexander Fleming*
+1- Alexander Fleming.*
 2- Louis Pasteur.
 3- Jonas Salk.
 4- Robert Koch.
 Q3: What is the largest organ in the human body?
 1- Brain.
 2- Liver.
-3- Skin*
+3- Skin.*
 4- Heart.
 Q4: What is the unit used to measure electric current?
-1- Ampere (A)*
+1- Ampere (A).*
 2- Volt (V).
 3- Ohm (Ω).
 4- Watt (W).
 Q5: What is the nearest star to Earth, Aside from the Sun?
 1- Alpha Centauri.
-2- Proxima Centauri*
+2- Proxima Centauri.*
 3- Sirius.
 4- Betelgeuse.
 Q6: What is the chemical formula of water?
-1- H2O*
+1- H2O.*
 2- CO2.
 3- NaCl.
 4- CH4.
@@ -32,19 +32,19 @@ Q7: What is the chemical symbol of gold?
 1- Au.
 2- Ag.
 3- Go.
-4- Gd*
+4- Gd.*
 Q8: Describe the process by which plants produce their own food?
 1- Respiration.
-2- Photosynthesis*
+2- Photosynthesis.*
 3- Decomposition.
 4- Digestion.
 Q9: Which planet is referred to as the Red Planet?
 1- Venus.
 2- Jupiter.
-3- Mars*
+3- Mars.*
 4- Saturn.
 Q10: What force keeps objects on the Earth's surface?
 1- Magnetism.
-2- Gravity*
+2- Gravity.*
 3- Friction.
 4- Buoyancy.

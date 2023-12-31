@@ -1,6 +1,6 @@
 class FileManip :
     def __init__(self):
-        self.path = 'C:\\Users\\pc\\Documents\\SecondYear\\Programs\\New folder\\QCM-PYTHON\\Final_project\\Data\\'
+        self.path = 'C:\\Users\\elhim\\OneDrive\\Desktop\\PYTHON\\MINI-PROJECT\\Final_project\\Data\\'
         
     def get_info(self, subject):
         """
