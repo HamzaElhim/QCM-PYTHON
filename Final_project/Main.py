@@ -7,6 +7,7 @@ from Classes.Levels.ThirdLevel import ThirdLevel
 
 
 def getMenu():
+    
     print("============================")
     print("======== Menu ===========")
     print("1 : Start Quiz")

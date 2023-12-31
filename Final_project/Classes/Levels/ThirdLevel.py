@@ -5,13 +5,20 @@ class ThirdLevel(SecondLevel):
     def __init__(self):
         super().__init__()
         self.subject   = "Sport"
-        print(self.file_data)
-        # self.manipulateData()
-        # print(self.file_data)
-
    
 
     def manipulateData(self, file_data): 
+            """
+        PARAMETERS :
+            => file_data : represent a list of  the retreived data(quistion and answer) from the file
+        ROLE :
+            => create a new list has each qestion in one postion in the array 
+                and each answer in one positoin in the array 
+            exmp : ['q1...?','ans1...end answ1','answer2..']= ['q1...','...?','ans1..','...','..end answ1','answer2..'] 
+
+        RETURN :
+            list of qustions and answers
+        """
             NewList = []      
             j = 0
             for i in range(len(file_data)):

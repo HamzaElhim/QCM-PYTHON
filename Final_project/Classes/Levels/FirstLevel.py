@@ -8,6 +8,17 @@ class FirstLevel:
         self.subject   = "Culture"
 
     def  getTrueAnswers(self,i, Quiz):
+        """
+        PARAMETERS :
+            => first one is 'i' : represent the index where the quesion is located 
+            => second is 'quiz' : represent the retrived list from the file
+        ROLE :
+            => print all answers of the question
+            => store numbers of right answer in a list 
+
+        RETURN :
+            list of correct answer numbers 
+        """
         trueAnswers = []        
         for j in range(i + 1, i + 5):
             if Quiz[j].endswith("*"):
@@ -20,6 +31,14 @@ class FirstLevel:
     
 
     def check_answer(self,answers):
+        """
+        PARAMETERS :
+            => answers : represent the list of correct answers number
+        ROLE :
+            =>  accept input from the user
+            =>  increment the score in case of correct answer
+
+        """
         righ_answer = True
         for y in range(0,len(answers)):
             answer = input("==>")
@@ -32,6 +51,13 @@ class FirstLevel:
         
 
     def diplay_quiz(self):
+        """
+        ROLE :
+            => display quiz structure : questions +  final score 
+
+        RETURN :
+            dectionary of two element : user final score + quiz subject 
+        """
         self.score     = 0
         Ins_file_data  = self.file_data.get_info(self.subject)
         print(f"=========== let's start the {self.subject} quiz ========")
