@@ -1,6 +1,6 @@
 class FileManip :
     def __init__(self):
-        self.path = 'C:\\Users\\elhim\\OneDrive\\Desktop\\PYTHON\\MINI-PROJECT\\Final_project\\Data\\'
+        self.path = 'C:\\Users\\pc\\Documents\\SecondYear\\Programs\\New folder\\QCM-PYTHON\\Final_project\\Data\\'
         
     def get_info(self, subject):
         """
@@ -15,7 +15,6 @@ class FileManip :
         with open(f"{self.path}{subject}.txt") as my_file:
             ques_list=my_file.readlines()
         ques_list = [ele.strip('\n') for ele in ques_list] 
-        print(ques_list)
         return ques_list 
     
     def write_user_data(self,userData):

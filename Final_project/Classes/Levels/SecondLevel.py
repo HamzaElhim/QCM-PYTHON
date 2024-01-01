@@ -21,19 +21,19 @@ class SecondLevel(FirstLevel):
         arr.remove(my_random)
         return my_random
     
-    def getTrueAnswers(self, i, Quiz):
+    def getTrueAnswers(self, i, Ins_file_data):
         trueAnswers = []    
         listRandomAns = [1, 2, 3, 4]    
         for j in range(1, 5):
             randomvalueAns = self.random_index(listRandomAns)
-            ourdata = Quiz[randomvalueAns + i]
-            Quiz[randomvalueAns + i] = str(j) + " - " + ourdata[2:]
-            if Quiz[randomvalueAns + i].endswith("*"):
-                vtrue = Quiz[randomvalueAns + i ].strip("*")
+            ourdata = Ins_file_data[randomvalueAns + i]
+            Ins_file_data[randomvalueAns + i] = str(j) + " - " + ourdata[2:]
+            if Ins_file_data[randomvalueAns + i].endswith("*"):
+                vtrue = Ins_file_data[randomvalueAns + i ].strip("*")
                 trueAnswers.append(vtrue[0])
                 print(vtrue)
             else:
-                print(Quiz[randomvalueAns + i])          
+                print(Ins_file_data[randomvalueAns + i])          
         return trueAnswers           
 
     def diplay_quiz(self):

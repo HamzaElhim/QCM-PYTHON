@@ -7,7 +7,7 @@ class FirstLevel:
         self.file_data = FileManip()
         self.subject   = "Culture"
 
-    def  getTrueAnswers(self,i, Quiz):
+    def  getTrueAnswers(self,i, Ins_file_data):
         """
         PARAMETERS :
             => first one is 'i' : represent the index where the quesion is located 
@@ -21,12 +21,12 @@ class FirstLevel:
         """
         trueAnswers = []        
         for j in range(i + 1, i + 5):
-            if Quiz[j].endswith("*"):
-                vtrue = Quiz[j].strip("*")
+            if Ins_file_data[j].endswith("*"):
+                vtrue = Ins_file_data[j].strip("*")
                 trueAnswers.append(vtrue[0])
                 print(vtrue)
             else:
-                print(Quiz[j])
+                print(Ins_file_data[j])
         return trueAnswers   
     
 
@@ -42,7 +42,7 @@ class FirstLevel:
         righ_answer = True
         for y in range(0,len(answers)):
             answer = input("==>")
-            if(answer != answers[y]):
+            if(answer not in answers):
                 righ_answer = False
         
         if(righ_answer):
@@ -63,7 +63,7 @@ class FirstLevel:
             print(Ins_file_data[i])
             trueAnswers = self.getTrueAnswers(i,Ins_file_data)  
             self.check_answer(trueAnswers)
-
+            
         return {'score':self.score,'subject':self.subject}
 
 
