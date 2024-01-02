@@ -14,10 +14,7 @@ def getMenu():
     print(getIndent() + " 1 : Start Quiz")
     print(getIndent() + " 2 : Show My information")
     print(getIndent() + " 3 : Show System Roles")
-    print(getIndent() + " 4 : Quiet from program")
-
-
-
+    print(getIndent() + " 4 : Leave the program")
 
 def getTopic():
     print("============================")
@@ -31,10 +28,6 @@ def getRules():
     print( getIndent() + "==> Users should use numbers as input.")
     print( getIndent() + "==> Users can Repeat the quiz & the largest score will be taken.")
     print( getIndent() + "==> User data will be saved in separated file.")
-
-     
-
-    
 
 print(getIndent() +" Welcome to Your Quiz ====================")
 firstName = input(getIndent() + " Enter your first name : ")
@@ -52,7 +45,7 @@ while True :
         while topic not in range(1, 4):
             getTopic() 
             topic = int(input("> Choose your topic : "))
-        dect_quiz_info=levels[topic - 1].diplay_quiz() 
+        dect_quiz_info=levels[topic - 1].diplay_quiz()
         print("Your sccore is : ", dect_quiz_info['score']) 
         User.setQuizData(dect_quiz_info)
         getMenu()
