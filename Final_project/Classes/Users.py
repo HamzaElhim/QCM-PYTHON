@@ -39,7 +39,7 @@ class Users :
             => store this information in a file
             
         """
-        user_data=[self.firstName,self.lastName]
+        user_data=[self.firstName, self.lastName]
         for element in self.quiz_data :
             user_data.append(f" {element['subject']} : {element['score']} ")
         

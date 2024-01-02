@@ -17,7 +17,7 @@ class FileManip :
         ques_list = [ele.strip('\n') for ele in ques_list] 
         return ques_list 
     
-    def write_user_data(self,userData):
+    def write_user_data(self, userData):
         """
         PARAMETERS :
             => userData : the user information : firstName - lastName - quiz subjects and score that the user take
